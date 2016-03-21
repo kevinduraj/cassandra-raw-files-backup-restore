@@ -1,11 +1,19 @@
 Cassandra Data Directory Backup/Restore
 =======================================
 
-* 0-backup-cassandra.sh - Copy Cassandra raw direrectory with files into desctination using rsync
-* 1-downgrade-dse.sh - Downgrade Cassandra to the source version 4.8.4 
+###Perform Task on Each Node of the Cluster
+
+* 0-backup-cassandra.sh - (Source Node) 
+  * copy Cassandra raw direrectory with files into desctination using rsync
+
+* 1-downgrade-dse.sh - (Optional Destination Node) 
+  * downgrade Cassandra to the source version 4.8.4 
   * ls -l /user/share/dse
-* 2-update-system.sh - Update Cassandra yaml files and system tables
-* 3-delete-peers.sh - Delete peers
+
+* 2-update-system.sh - (Destination Node) 
+  * update Cassandra yaml files and system tables
+* 3-delete-peers.sh - (Detination Node) 
+  * delete peers
 
 ### Bash Aliases 
 
