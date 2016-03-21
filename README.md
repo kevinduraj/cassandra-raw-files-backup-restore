@@ -12,6 +12,7 @@ Cassandra Data Directory Backup/Restore
 
 * 2-update-system.sh - (Destination Node) 
   * update Cassandra yaml files and system tables
+
 * 3-delete-peers.sh - (Detination Node) 
   * delete peers
 
