@@ -6,7 +6,7 @@ Cassandra Data Directory Backup/Restore
 * 0-backup-cassandra.sh - (Source Node) 
   * copy Cassandra raw direrectory with files into desctination using rsync
 
-* 1-downgrade-dse.sh - (Optional Destination Node) 
+* 1-downgrade-dse.sh - (Optional if version differs - Destination Node) 
   * downgrade Cassandra to the source version 4.8.4 
   * ls -l /user/share/dse
 
