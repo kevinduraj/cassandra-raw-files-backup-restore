@@ -24,5 +24,8 @@ $ vi ~/.bash_aliases
   alias 2='tail -50f /var/log/cassandra/system.log'
 ```
 
+* 4 Location
+  * /usr/share/datastax-agent/bin/backup-scripts
+
 ###References:
 [https://github.com/richrein/cassandra.bin](https://github.com/richrein/cassandra.bin)
