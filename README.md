@@ -16,6 +16,10 @@ Cassandra Data Directory Backup/Restore
 * 3-delete-peers.sh - (Detination Node) 
   * delete peers
 
+* 4 Location
+  * /usr/share/datastax-agent/bin/backup-scripts/datastaxagent_backup_local_disk
+  
+  
 ### Bash Aliases 
 
 ```
@@ -24,8 +28,7 @@ $ vi ~/.bash_aliases
   alias 2='tail -50f /var/log/cassandra/system.log'
 ```
 
-* 4 Location
-  * /usr/share/datastax-agent/bin/backup-scripts/datastaxagent_backup_local_disk
+
 
 ###References:
 [https://github.com/richrein/cassandra.bin](https://github.com/richrein/cassandra.bin)
