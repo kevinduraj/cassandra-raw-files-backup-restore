@@ -25,7 +25,7 @@ $ vi ~/.bash_aliases
 ```
 
 * 4 Location
-  * /usr/share/datastax-agent/bin/backup-scripts
+  * /usr/share/datastax-agent/bin/backup-scripts/datastaxagent_backup_local_disk
 
 ###References:
 [https://github.com/richrein/cassandra.bin](https://github.com/richrein/cassandra.bin)
